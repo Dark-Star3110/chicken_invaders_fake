@@ -399,11 +399,13 @@ function displayInf(){
     
     let healthif = `x ${plane.health}`;
     let level_inf = `Level : ${row}`;
+    let score_inf = `Score : ${score}`
     ctx.font = "30px Arial";
     ctx.fillStyle = 'aqua';
     ctx.fillText(healthif,80,60);
     ctx.fillStyle = 'white';
     ctx.fillText(level_inf,canvas.width/1.2,60);
+    ctx.fillText(score_inf,canvas.width/1.2,100);
 }
 
 function isGameOver(){
