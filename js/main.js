@@ -28,7 +28,7 @@ heart_img.src = 'img/heart.png';
 let x=0,y=0;
 
 let isShot =false;
-// let plane_img=document.getElementById('space-ship');
+// plane
 let plane_img= new Image(50,50);
 plane_img.src="./img/spaceship.png";
 let plane = new SpaceShip(plane_img);
