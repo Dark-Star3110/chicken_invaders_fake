@@ -129,7 +129,7 @@ class fireWork{
         this.bullets.forEach(bullet => bullet.update());
         this.draw();
         // console.log('cc');
-        setTimeout(() => this.loop(),5000);
+        setTimeout(() => this.loop(),10000);
     }
     clearScreen(){
         this.ctx.clearRect(0,0,W,H);
